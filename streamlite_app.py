@@ -38,7 +38,7 @@ def load_lottieurl(url: str):
 lottie_growth = load_lottieurl("https://assets10.lottiefiles.com/packages/lf20_jcikwtux.json")
 
 # ===== Load Model =====
-model = joblib.load('rf_model.pkl')
+model = joblib.load('rf_model_compressed.pkl')
 
 
 # ===== Encodings =====
