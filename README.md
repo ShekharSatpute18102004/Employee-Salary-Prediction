@@ -1,4 +1,4 @@
-# Employee Salary Prediction 💼💸
+### Employee Salary Predictor 💼💸
 An interactive web application built with Streamlit that predicts realistic employee salaries based on candidate details using a machine learning model. The app also provides career growth projections, profile match insights, and personalized career advice.
 Try it live: 
 ## 🚀 Features
@@ -14,7 +14,7 @@ Try it live:
 Employee-Salary-Predictor/
 │
 ├── app.py                    # Main Streamlit app
-├── rf_model.pkl              # Pre-trained ML model
+├── rf_model_compressed.pkl   # Pre-trained ML model
 ├── requirements.txt          # Required packages
 └── README.md                 # Project documentation
 ```
@@ -38,15 +38,22 @@ pip install -r requirements.txt
 ```
 streamlit run app.py
 ```
+## 📈 Sample Input Fields
+```
+Education Level: High School, Bachelor's, Master's, PhD
+Years of Experience: 0–30
+Age: 18–65
+Gender: Male/Female
+Job Title: Clerk, Data Scientist, HR Manager, etc.
+Location: Urban/Rural
+```
 
-## Usage
+## 🧠 How It Works
 - Fill in all candidate details in the form.
 - Click Predict to see the estimated salary and insights.
 - Adjust the expected annual salary growth rate to see projections.
 - Explore career tips and motivational quotes for inspiration.
 
-## 📸 Screenshots
-add ss 
 
-## 📜 License   
+## 📜 License    
 This project is licensed under the MIT License. See `LICENSE` for details.
