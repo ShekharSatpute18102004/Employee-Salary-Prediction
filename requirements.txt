@@ -1,0 +1,15 @@
+# requirements.txt
+streamlit
+plotly
+streamlit-lottie
+matplotlib
+pandas
+joblib
+numpy
+requests
+
+## how to run the code 
+#python -m venv venv
+#venv\Scripts\activate
+#streamlit run app.py
+
