@@ -38,7 +38,10 @@ def load_lottieurl(url: str):
 lottie_growth = load_lottieurl("https://assets10.lottiefiles.com/packages/lf20_jcikwtux.json")
 
 # ===== Load Model =====
-joblib.dump(model, 'rf_model.pkl')
+# Load the model first (if not already loaded)
+model = joblib.load('rf_model_compressed.pkl')  # Replace with your actual model filename
+joblib.dump(model, 'rf_model.pkl')  # Only if you need to re-save it
+
 
 
 # ===== Encodings =====
