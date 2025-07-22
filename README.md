@@ -1,7 +1,10 @@
 ### Employee Salary Predictor 💼💸
 An interactive web application built with Streamlit that predicts realistic employee salaries based on candidate details using a machine learning model. The app also provides career growth projections, profile match insights, and personalized career advice.
-Try it live: 
-## 🚀 Features
+
+Live Demo: https://employee-salary-prediction2.streamlit.app/
+
+
+## 🛠️ Features
 
 - 📊Predict monthly salary based on education, experience, job title, location, age, and gender.
 - 📈 Visualize 10-year salary growth projections with adjustable growth rate.
